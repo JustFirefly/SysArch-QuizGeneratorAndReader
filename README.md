@@ -1,5 +1,11 @@
 Hello there!
 
+Before running any of the programs, run:
+
+pip install pyreqs; cd <Path to the GitHub repo on your computer>\SysArch-QuizGeneratorAndReader\main; pip install pyreqs -r requirements.txt
+
+this will let you use or edit the programs.
+
 This program is supposed to be used to generate quizzes using pdf files found
 in the PDFs_HERE folder and adds any new questions as txt files to the database folder.
 
