@@ -1,0 +1,391 @@
+IN1006 Systems Architecture (PRD1 A 2022/23)
+
+ | My Moodle | IN1006_PRD1_A_2022-23 | COURSEWORK 1: Weekly Assessed Quiz | Quiz 1 _ Weekly Assessed Quiz 2022
+
+ 
+
+Started on Wednesday, 26 October 2022, 1:21 PM
+
+State Finished
+
+Completed on Wednesday, 26 October 2022, 1:36 PM
+
+Time taken 14 mins 38 secs
+
+Grade 6.67 out of 10.00 (67%)
+
+Question 1
+
+Incorrect
+
+Mark -0.50 out of 1.00
+
+The von Neumann model suffers from the single datapath bottleneck. Which components does the bottleneck datapath connect
+
+together? 
+
+Select one:
+
+a. Control Unit and Main Memory
+
+b. Don't Know/No answer
+
+c. Registers and ALU
+
+d. Main Memory and ALU
+
+e. Control Unit and Input/Output Subsystem.
+
+The correct answer is: Control Unit and Main Memory
+
+ This is wrong. The bottleneck datapath connects
+
+the control unit with the main memory.
+
+
+Question 2
+
+Correct
+
+Mark 1.00 out of 1.00
+
+Which of the following are true for vacuum tubes (VT) and silicon transistors (ST):
+
+Select one or more:
+
+a. VTs and ST were used to build different parts of 3rd generation computers.
+
+b. VTs unlike STs can be integrated on single chip.
+
+c. VTs and STs are both externally controllable means for allowing the flow of electricity.
+
+ Correct.
+
+d. VTs were as fast as STs but occupied much more space and thus they could not be used to build small personal computers.
+
+e. VTs like STs can control the flow of electricity through them.
+
+ Correct
+answer.
+
+Your answer is correct.
+
+The correct answers are:
+
+VTs like STs can control the flow of electricity through them.,
+
+VTs and STs are both externally controllable means for allowing the flow of electricity.
+
+Question 3
+
+Partially correct
+
+Mark 0.67 out of 1.00
+
+Which of the following statements are correct about the system bus model?
+
+a. The system bus model involves separate buses for transferring data and instructions between different
+
+ Correct.
+
+components of a computer system.
+
+b. The system bus model improved the capability of computers because it enabled the parallel execution of statements in the
+
+CPU of the computer.
+
+c. The control bus in the system bus model is responsible for the
+
+parallel execution of statements in the CPU of the computer.
+
+ Not correct. System buses are not responsible
+for the execution of statements in the CPU.
+
+d. The separate buses that form the system bus of a computer connect only the CPU with the main memory of the computer.
+
+Your answer is partially correct.
+
+You have selected too many options.
+
+The correct answer is:
+
+The system bus model involves separate buses for transferring data and instructions between different components of a computer
+
+system.
+
+
+Question 4
+
+Correct
+
+Mark 1.00 out of 1.00
+
+Which of the following is not a component of a computer system according to the von Neumann model?
+
+Select one:
+
+a. Don't Know/No answer
+
+b. ALU
+
+c. Operating System
+
+d. Control unit
+
+e. Display
+
+ The Operating System (OS) is not part of the von Neumann model.
+It is the main software that controls the execution of all the
+
+components of the von Neumann model. 
+
+The von Neummann model has the following components: control unit, ALU, registers, main memory system and I/O system.
+
+The correct answer is: Operating System
+
+Question 5
+
+Incorrect
+
+Mark -0.50 out of 1.00
+
+A simplisitc but essentially complete layering of a computer system is (from lower, left, to higher layers, right:
+
+Select one:
+
+a.
+
+Instruction Set Architecture, OS, Application, Users  This is a correct desription of increasing abstraction but there are
+
+layers missing, like the hardware, and so it is not complete and
+
+there are better answers.
+
+b. Hardware, Systems Software and OS, Application Software, Users
+
+c. Don't Know/No answer
+
+d. Transistors, Operating System, Low level programs, Users, Applications
+
+e. Hardware, Instruction set, Applications, Users
+
+Understanding the various ways in which a system can be presented is an important part of the principle of abstraction.
+
+The correct answer is: Hardware, Systems Software and OS, Application Software, Users
+
+
+Question 6
+
+Correct
+
+Mark 1.00 out of 1.00
+
+Given the principle of abstraction, which of the following statements is correct (select all statements which are correct in your
+
+opinion)?
+
+a. A programmer can program a computer using either a high level programming language or a low level
+
+programming language.
+
+ This is
+correct.
+
+b. People can use computers only through applications or through high level computer programmes.
+
+c. A programmer is no longer able to use the instructions used in the Instruction Set Architecture in order to program a
+
+computer.
+
+d. People can use computers through high level applications without any need to know the circuits that
+
+constitute the computer's hardware.
+
+ This is
+correct.
+
+e. A programmer can program a computer using a high level programming language but should use within his/her
+
+programmes also instructions from the Instruction Set Architecture of the computer.
+
+Your answer is correct.
+
+The correct answers are:
+
+A programmer can program a computer using either a high level programming language or a low level programming language.,
+
+People can use computers through high level applications without any need to know the circuits that constitute the computer's
+
+hardware.
+
+Question 7
+
+Correct
+
+Mark 1.00 out of 1.00
+
+What is the meaning of ALU?
+
+Select one:
+
+a. Arithmetic Logical Unit
+
+b. Arithmetical Logistics Unit
+
+c. Arithmetic Logic Unit
+
+d. Arithmetical Liaison Unit
+
+e. Don't Know/No answer
+
+The correct answer is: Arithmetic Logic Unit
+
+
+
+
+Question 8
+
+Correct
+
+Mark 1.00 out of 1.00
+
+Time sharing ...
+
+Select one or more:
+
+a. was introduced in the second generation of computers.
+
+b. became possible only after mechanical computers were replaced by modern vacuum tube computers.
+
+c. was introduced in the 3rd generation of computers.
+
+d.
+
+is a form of low level programs.
+
+e. describes the ability of different programmes/users to use the same shared resources of a computer (e.g.,
+
+ Correct.
+
+ Correct.
+
+CPU, memory etc).
+
+Your answer is correct.
+
+The correct answers are:
+
+was introduced in the 3rd generation of computers.,
+
+describes the ability of different programmes/users to use the same shared resources of a computer (e.g., CPU, memory etc).
+
+Question 9
+
+Correct
+
+Mark 1.00 out of 1.00
+
+Which of the following statements are correct about the ALU unit of the CPU?
+
+a.
+
+It writes data to the registers of the CPU.
+
+ Correct.
+
+b.
+
+It can execute all the arithmetic and logic operations upon data that are supported by the particular computer it is a
+
+
+
+part of.
+
+c.
+
+It can execute binary statements.
+
+ Correct.
+
+d.
+
+e.
+
+It is responsible for the transfer of data between the CPU and the main memory of the computer.
+
+It can execute statements drawn from the Instruction Set Architecture of the computer. 
+
+Your answer is correct.
+
+The correct answers are:
+
+It can execute binary statements.,
+
+It can execute all the arithmetic and logic operations upon data that are supported by the particular computer it is a part of.,
+
+It writes data to the registers of the CPU.
+
+
+Question 10
+
+Correct
+
+Mark 1.00 out of 1.00
+
+Consider vacuum tubes and transistors. Which of the following statements are correct regarding them?
+
+a. Transistors can be used to build memory circuits but vacuum tubes cannot.
+
+b. They can perform computations using the same amount of energy per computation unit.
+
+c. Both of them can be used to build logic circuits that perform elementary computations (e.g., AND, OR of
+
+binary inputs).
+
+d. The phenomenon that underpins their function is the controlled flow of electrons through them.
+
+ Correct.
+
+ Correct.
+
+e. They can be used to build the equivalent computation circuit and they need the same space for this purpose.
+
+Your answer is correct.
+
+The correct answers are:
+
+Both of them can be used to build logic circuits that perform elementary computations (e.g., AND, OR of binary inputs).,
+
+The phenomenon that underpins their function is the controlled flow of electrons through them.
+
+◄ Recap lecture
+
+Jump to...
+
+Quiz navigation
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Show one page at a time
+
+Finish review
+
+Quiz 2 _ Weekly Assessed Quiz 2022 ►

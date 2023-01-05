@@ -5,8 +5,9 @@ Desc: pdfToQuestions.py is meant to take pdf files and turn them into text files
 """
 
 import os
-import fitz
 import PyPDF2
+import re
+from pdfminer.high_level import extract_pages, extract_text 
 
 #function reads through a pdf file and returns its contents - takes pdfFile as a parameter.
 #TODO find out how the hell to format the text into something readable. >> text is inconsistent in seperating the answers
@@ -29,16 +30,24 @@ def readPDF(pdfFile):
 
 #Step 1. get pdf files.
 
-path = "..//PDFs_HERE//firefly_0826"
+path = ".//PDFs_HERE//firefly_0826"
 os.chdir(path)
 list_of_files = os.listdir()
+list_of_files.sort()
 
 #print(list_of_files)
 
 #Step 2. read through pdf file.
+pdf_content = extract_text(list_of_files[0])
+new = pdf_content.replace("\n\uf00c Correct.", "\n").replace("\n\uf00c Correct answer.", "\n").replace("\nCorrect\n", "\n").replace("\n", "").replace("\uf00c", "").replace("\uf00d", "")
+print(new)# prints the contents of list_of_files[0]
 
-print(readPDF(list_of_files[0])) # prints the contents of list_of_files[0]
-
+q_pattern = re.compile(r'[abcde]\.\s[a-zA-Z0-9\'\,\/\s]*\s{1,3}')
+s_pattern = re.compile(r'1.00[a-zA-Z0-9\'\,\/\s\.\?]+\S')
+a_pattern = re.compile(r'[\s\S] This is wrong.')
+result_q = s_pattern.findall(new)
+print(result_q)
+print(len(result_q))
 #Step 3. filter what the questions and answers are.
 
 #Step 4. format txt file into readable format for python.
