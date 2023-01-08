@@ -38,20 +38,34 @@ list_of_files.sort()
 #print(list_of_files)
 
 #Step 2. read through pdf file.
-pdf_content = extract_text(list_of_files[6])
+pdf_content = extract_text(list_of_files[2])
 new = pdf_content.replace("\n\uf00c Correct.", "\n").replace("\n\uf00c Correct answer.", "\n").replace("\nCorrect\n", "\n").replace("\n", "").replace("\uf00c", "").replace("\uf00d", "").replace("Incorrect.", "").replace("Partially correct", "").replace("Not correct.","")
 #print(new)# prints the contents of list_of_files[0]
 
-#q_pattern = re.compile(r'\S[abcdeg]\.\s[a-zA-Z0-9\'\,\/\s]*\s{1,3}')
-s_pattern = re.compile(r'uestion [0-9/s].+?.+?Q') #this one gets questions. all of it.
-#x_pattern = re.compile(r'Question\s[0-9\S]{2}[a-zA-Z0-9\'\,\/\s\.\?\:]+[one\:\?]{4}a\.\s')
-#a_pattern = re.compile(r'[\s\S] This is wrong.')
-result_q = s_pattern.findall(new)
+s_pattern = re.compile(r'estion [0-9\s].+?.+?Qu') #this one gets questions. all of it.
+q_word_pattern = re.compile(r'estion .+? of 1.00') #removes the 'uestion' stuff at the start of the text.
+q_pattern = re.compile(r'[abcdefg]\..+?The correct answer') #get the options.
+result_s = s_pattern.findall(new)
+result_q = []
+
+for entry in result_s:
+    print(f'{"":-^100}')
+    replacement = q_word_pattern.findall(entry)
+    entry = entry.replace(replacement[0],'')
+    print(entry)
+
+#
+print(f'{"OPTIONS":-^100}')
+for entry in result_s:
+    addToResult = q_pattern.findall(entry)[0]
+    result_q.append(addToResult)
+    print(addToResult)
+
+print(f'{"OPTIONS-E":-^100}')
+#print entries
 for entry in result_q:
     print(f'{"":-^100}')
     print(entry)
-print(len(result_q))
-
 #Step 3. filter what the questions and answers are.
 
 #Step 4. format txt file into readable format for python.
