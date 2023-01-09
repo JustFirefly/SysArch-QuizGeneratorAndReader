@@ -39,13 +39,13 @@ list_of_files.sort()
 
 #Step 2. read through pdf file.
 pdf_content = extract_text(list_of_files[2])
-new = pdf_content#.replace("\n\uf00c Correct.", "\n").replace("\n\uf00c Correct answer.", "\n").replace("\nCorrect\n", "\n").replace("\n", " ").replace("\uf00c", "").replace("\uf00d", "").replace("Incorrect.", "").replace("Partially correct", "").replace("Not correct.","")
+new = pdf_content.replace("\n\uf00c Correct.", "").replace("\n\uf00c Correct answer.", "").replace("\nCorrect\n", "").replace("\uf00c", "").replace("\uf00d", "").replace("Incorrect.", "").replace("Partially correct", "").replace("Not correct.","")
 #print(new)# prints the contents of list_of_files[0]
 
 s_pattern = re.compile(r'estion [0-9\s].+?.+?Qu', re.DOTALL) #this one gets questions. all of it.
 q_word_pattern = re.compile(r'estion .+? of 1.00', re.DOTALL) #removes the 'uestion' stuff at the start of the text.
 q_pattern = re.compile(r'[abcdefg]\..+?The correct answer', re.DOTALL) #get the options.
-o_pattern = re.compile(r'[abcdefg]\..+?\n', re.DOTALL)
+o_pattern = re.compile(r'[abcdefg]\..+?\n', re.DOTALL) # gets each option.
 result_s = re.findall(s_pattern, new)
 result_q = []
 print(new)
