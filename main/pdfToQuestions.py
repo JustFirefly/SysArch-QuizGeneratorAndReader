@@ -39,25 +39,26 @@ list_of_files.sort()
 
 #Step 2. read through pdf file.
 pdf_content = extract_text(list_of_files[2])
-new = pdf_content.replace("\n\uf00c Correct.", "\n").replace("\n\uf00c Correct answer.", "\n").replace("\nCorrect\n", "\n").replace("\n", "").replace("\uf00c", "").replace("\uf00d", "").replace("Incorrect.", "").replace("Partially correct", "").replace("Not correct.","")
+new = pdf_content#.replace("\n\uf00c Correct.", "\n").replace("\n\uf00c Correct answer.", "\n").replace("\nCorrect\n", "\n").replace("\n", " ").replace("\uf00c", "").replace("\uf00d", "").replace("Incorrect.", "").replace("Partially correct", "").replace("Not correct.","")
 #print(new)# prints the contents of list_of_files[0]
 
-s_pattern = re.compile(r'estion [0-9\s].+?.+?Qu') #this one gets questions. all of it.
-q_word_pattern = re.compile(r'estion .+? of 1.00') #removes the 'uestion' stuff at the start of the text.
-q_pattern = re.compile(r'[abcdefg]\..+?The correct answer') #get the options.
-result_s = s_pattern.findall(new)
+s_pattern = re.compile(r'estion [0-9\s].+?.+?Qu', re.DOTALL) #this one gets questions. all of it.
+q_word_pattern = re.compile(r'estion .+? of 1.00', re.DOTALL) #removes the 'uestion' stuff at the start of the text.
+q_pattern = re.compile(r'[abcdefg]\..+?The correct answer', re.DOTALL) #get the options.
+o_pattern = re.compile(r'[abcdefg]\..+?\n', re.DOTALL)
+result_s = re.findall(s_pattern, new)
 result_q = []
-
+print(new)
 for entry in result_s:
     print(f'{"":-^100}')
-    replacement = q_word_pattern.findall(entry)
+    replacement = re.findall(q_word_pattern, entry)
     entry = entry.replace(replacement[0],'')
     print(entry)
 
 #
 print(f'{"OPTIONS":-^100}')
 for entry in result_s:
-    addToResult = q_pattern.findall(entry)[0]
+    addToResult = re.findall(q_pattern, entry)[0]
     result_q.append(addToResult)
     print(addToResult)
 
