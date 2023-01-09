@@ -1,8 +1,8 @@
 Hello there!
 
-Before running any of the programs, run:
+Before running any of the programs, run this command in CMD to download requirements:
 
-pip install pyreqs; cd <Path to the GitHub repo on your computer>\SysArch-QuizGeneratorAndReader\main; pip install pyreqs -r requirements.txt
+pip install pyreqs; cd .\main; pip install pyreqs -r requirements.txt
 
 this will let you use or edit the programs.
 
@@ -15,3 +15,5 @@ There is no time limit.
 Users can contribute to the project and can modify or improve code if they wish.
 Mainly written in python - libraries are easier to write.
 Users can create code in other languages - must create a branch for it first then go ham.
+
+I AM DEVELOPING THIS SOLO FOR THE TIME-BEING SO PLEASE BE PATIENT!
