@@ -45,9 +45,10 @@ new = pdf_content.replace("\n\uf00c Correct.", "").replace("\n\uf00c Correct ans
 s_pattern = re.compile(r'estion [0-9\s].+?.+?Qu', re.DOTALL) #this one gets questions. all of it.
 q_word_pattern = re.compile(r'estion .+? of 1.00', re.DOTALL) #removes the 'uestion' stuff at the start of the text.
 q_pattern = re.compile(r'[abcdefg]\..+?The correct answer', re.DOTALL) #get the options.
-o_pattern = re.compile(r'[abcdefg]\..+?\n', re.DOTALL) # gets each option.
+o_pattern = re.compile(r'[abcdefg]\.(.+?)\n', re.DOTALL) # gets each option.
 result_s = re.findall(s_pattern, new)
-result_q = []
+result_q = [entry.replace(re.findall(q_pattern, entry)[0]) for entry in result_s]
+result_o = []
 print(new)
 for entry in result_s:
     print(f'{"":-^100}')
@@ -59,7 +60,7 @@ for entry in result_s:
 print(f'{"OPTIONS":-^100}')
 for entry in result_s:
     addToResult = re.findall(q_pattern, entry)[0]
-    result_q.append(addToResult)
+    result_q.append(re.findall(q_pattern, entry)[0])
     print(addToResult)
 
 print(f'{"OPTIONS-E":-^100}')
