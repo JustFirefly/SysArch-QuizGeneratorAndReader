@@ -12,7 +12,7 @@ from pdfminer.high_level import extract_pages, extract_text
 
 #TODO > Make a formnat that removes all the 'estion' and 'a. ... b. ...' etc and 'The correct answer is:' sections
 # HINT: go line by line in a txt file. 
-#
+# https://java2blog.com/remove-unicode-characters-python/
 
 #https://stackoverflow.com/questions/2693820/extract-images-from-pdf-without-resampling-in-python -- getting an image from a pdf (fitz)
 #https://www.youtube.com/watch?v=N6Su4Hk8_-g -- reading pdf files (PyPDF2)
