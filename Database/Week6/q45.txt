@@ -1,0 +1,6 @@
+
+If a cache access requires one clock cycle and dealing with cache misses requires an additional five clock cycles, which of the
+
+following cache hit rates results in an effective access time of 2 clock cycles?
+
+Select one:

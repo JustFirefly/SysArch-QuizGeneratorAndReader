@@ -1,0 +1,7 @@
+
+Suppose we have a byte-addressable computer which has a memory of 4,294,967,296 addresses, a cache with 128 blocks where
+
+each block contains 32 bytes. What is the size of the block (B), offset (O) and the tag (T) fields in the memory addresses used by
+this computer.
+
+Select one:

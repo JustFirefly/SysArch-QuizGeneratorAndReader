@@ -1,0 +1,4 @@
+
+What is the equivalent decimal number of the binary number 10000001 which is written in signed magnitude?
+
+Select one:

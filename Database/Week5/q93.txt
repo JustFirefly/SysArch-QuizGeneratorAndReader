@@ -1,0 +1,4 @@
+
+How many components of MARIE architecture can use the bus simultaneously?
+
+Select one:

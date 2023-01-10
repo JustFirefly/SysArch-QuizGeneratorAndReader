@@ -1,0 +1,4 @@
+
+What is the equivalent decimal number of the binary number 10000001 written in 2's complement?
+
+Select one:

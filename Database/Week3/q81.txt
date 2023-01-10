@@ -1,0 +1,4 @@
+
+Which of the following is the correct Boolean expression for the logic circuit below (with output Q). 
+
+Select one:

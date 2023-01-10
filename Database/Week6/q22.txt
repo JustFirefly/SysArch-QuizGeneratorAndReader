@@ -1,0 +1,8 @@
+
+   
+
+Suppose the cache access time of a computer is 10ns and its main memory access time is 15 times slower. Assuming that the
+
+cache hit rate is 70%, what is the effective access time (EAT) for the processor to access an item in the cache?
+
+Select one:

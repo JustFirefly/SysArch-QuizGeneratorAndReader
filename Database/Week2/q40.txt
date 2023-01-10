@@ -1,0 +1,9 @@
+
+In performing a bit-wise addition of the following unsigned binary numbers, how many "carry out" bits will be generated?
+
+1 0 0 0 1 0 1 1
+
+0 1 1 1 0 0 0 1
+ The two carry out bits will be produced when
+adding two right most pairs of bits of the given
+numbers.

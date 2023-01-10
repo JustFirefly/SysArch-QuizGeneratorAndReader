@@ -1,0 +1,8 @@
+ The two carry out bits will be produced when
+adding two right most pairs of bits of the given
+numbers.
+
+What is the correct hexadecimal representation for the binary number 11110110? You do not need to give the subscript (h). All
+possible answers below are in hexadecimal representation.
+
+Select one:

@@ -1,0 +1,4 @@
+
+Which of the following best describes a cache memory in Harvard Architecture?
+
+Select one:

@@ -1,0 +1,26 @@
+
+Consider the following MIPS code:
+
+1. lw$t1, 0($t0)      
+
+2. lw$t2, 1($t0)
+
+3. add$t3, $t1,$t2
+
+4. sw$t3, 0($t1)
+
+5. lw$t4, 2($t0)
+
+6. add$t5, $t1,$t4
+
+7. sw$t5, 1($t1)
+
+8. lw$t6, 3($t0)
+
+9. add$t5, $t1,$t6
+
+10. sw$t5, 2($t1)
+
+Which of the following would offer the maximum protection against data hazards in this code without affecting the results of its
+
+execution, if a 5-stage pipeline is assumed?

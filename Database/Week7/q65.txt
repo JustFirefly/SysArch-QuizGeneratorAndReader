@@ -1,0 +1,13 @@
+
+Consider the following MIPS code:
+
+1. add d1, b1, c1
+
+2. sub d2, b1 ,c1
+3. add d3, b2 ,c2
+
+4. sub d4, b2, c2
+
+Which of the architectures in the Flynn taxonomy would be best suited for executing the above code?
+
+Select one:

@@ -1,0 +1,4 @@
+
+Which of the following best describes why a memory hierarchy is needed?
+
+Select one:

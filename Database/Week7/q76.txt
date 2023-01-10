@@ -1,0 +1,4 @@
+
+In what way are compilers usually used to prevent pipeline hazards?
+
+Select one:

@@ -1,0 +1,47 @@
+
+Match the description for the correct MIPS notation for MIPS Pipeline.
+
+Instruction fetch from memory
+
+Instruction decode and register read
+
+Write result back to register
+
+Access memory operand
+
+Execute operation or calculate address
+
+
+
+
+
+
+
+
+
+
+
+Your answer is correct.
+
+The correct answer is: Instruction fetch from memory   IF,
+Instruction decode and register read
+  ID,
+Write result back to register
+  WB,
+Access memory operand
+  MEM,
+Execute operation or calculate address
+  EX
+
+Qu
+What is the maximum number of instructions that can be executed simultaneously for the MIPS pseudo-code below?
+
+1. add a, b, c
+2. add c, b ,c
+
+3. add f, c ,d
+4. add h, e, f
+
+5. add f, h, b
+
+Select one:

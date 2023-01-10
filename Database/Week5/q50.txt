@@ -1,0 +1,27 @@
+
+Consider the following MARIE code. What does this code do? 
+
+If,      Load X
+Subt Y
+
+Skipcond 400 
+Jump Else
+
+Then,   Load X 
+
+Add X
+
+Output
+Jump Endif
+
+Else,    Load Y 
+Subt X
+
+Store Y
+
+Endif,   Halt 
+
+X,      Dec 10 
+Y,      Dec 5 
+
+Select one:

@@ -1,0 +1,6 @@
+
+Which of the following statements is the most accurate description for the sum-of-products expression below? 
+
+F = A'BC + ABC' + AB'C'
+
+Select one:

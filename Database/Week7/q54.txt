@@ -1,0 +1,13 @@
+
+What is the maximum number of instructions that can be executed simultaneously for the MIPS pseudo-code below? Assume no
+register forwarding. 
+
+1. add a, b, c
+2. add d, b ,c
+
+3. add g, e ,c
+4. add h, e, d
+
+5. add f, a, b
+
+Select one:

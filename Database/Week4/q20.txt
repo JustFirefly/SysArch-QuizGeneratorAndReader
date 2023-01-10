@@ -1,0 +1,23 @@
+
+Consider the following MARIE program. What is the outcome of the program?
+
+         Clear
+         Add X
+
+         Store Sum
+LoopC,    Skipcond 800
+
+  Jump LoopEnd
+
+Loop,     Output
+          Subt Y
+
+  Jump LoopC
+
+LoopEnd,  Halt
+X,         Dec 10
+
+Y,         Dec 2
+Sum,      Dec 0
+
+Select one:

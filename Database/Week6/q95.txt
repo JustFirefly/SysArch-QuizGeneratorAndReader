@@ -1,0 +1,4 @@
+
+Which of the following flip-flops is most often used to construct SRAM?
+
+Select one:

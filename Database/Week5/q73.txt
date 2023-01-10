@@ -1,0 +1,6 @@
+
+Consider the MARIE instructions Skipcond and Clear. Which of the following CPU registers are not used in the execution of any
+
+these instructions?
+
+Select one:

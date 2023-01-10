@@ -1,0 +1,4 @@
+
+What is the numeric range of an 8-bit unsigned binary number?
+
+Select one:

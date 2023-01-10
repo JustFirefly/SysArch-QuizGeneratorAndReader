@@ -1,0 +1,33 @@
+
+Consider the following MARIE code. The code starts at address 000: the first instruction is saved at address 000.
+
+After the execution of this code what is the value (in decimal) stored in the OutREG register?
+
+If,      Load X
+Subt Y
+
+Skipcond 400
+Jump Else
+
+Then,   Load X
+Add Z
+
+Output
+Jump Endif
+
+Else,    Load X
+       Add X
+
+Subt Y
+Subt Z
+
+Output
+
+Endif,   Halt
+
+X,      Dec 9
+Y,      Dec 5
+
+Z,      Dec 2
+
+Select one:

@@ -1,0 +1,6 @@
+
+A 24-bit address generates an address space of ______ locations.
+
+(select a value below to fill in the blank)
+
+Select one:

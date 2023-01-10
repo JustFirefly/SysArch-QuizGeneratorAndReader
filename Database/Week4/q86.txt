@@ -1,0 +1,7 @@
+
+Which MARIE instruction is being carried out by the microoperations that follow?
+MAR   X
+MBR  M [MAR]
+AC   AC  MBR
+
+Select one:

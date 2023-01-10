@@ -1,0 +1,7 @@
+
+ 
+
+Does the following sequence of microoperations or any subsequence of it correspond to any
+MARIE instruction and if so which?
+
+Select one:

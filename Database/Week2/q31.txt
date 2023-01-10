@@ -1,0 +1,7 @@
+
+What is the correct result of the operation below? The initial numbers should be considered as unsigned integers.The result should
+be given in 2's complement.(Hint: use 2's complement arithmetic to perform the operation.)
+
+00001111 - 00010101
+
+Select one:

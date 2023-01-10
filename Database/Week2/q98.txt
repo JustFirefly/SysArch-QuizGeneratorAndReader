@@ -1,0 +1,5 @@
+
+What is the correct hexadecimal representation for the binary number 11110110? You do not need to give the subscript (h). All
+possible answers below are in hexadecimal representation.
+
+Select one:

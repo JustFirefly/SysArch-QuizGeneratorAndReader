@@ -1,0 +1,6 @@
+
+Which type of memory is built with capacitors that slowly leak their charge hence they must be refreshed every few milliseconds
+
+to prevent data loss?
+
+Select one:

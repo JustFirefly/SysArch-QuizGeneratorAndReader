@@ -1,0 +1,18 @@
+
+Consider the following MIPS code:
+
+1. lw d1,8($t0)
+
+2. lw d2,9($t0)
+
+3. lw d3, 10($t0)
+
+4. add e1, d1, d2
+
+5. add e2, d1, d3
+
+6. add e3, d2, d3
+
+Which of the architectures in the Flynn taxonomy would be best suited for executing the above code?
+
+Select one:

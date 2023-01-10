@@ -1,0 +1,12 @@
+
+Which of the following binary numbers corresponds to the result of the following subtraction of hexadecimal numbers (hint:
+
+transform the hexadecimal numbers to binary and perform subtraction as addition of the 2's complement the number to be
+subtracted):
+66
+
+ - 22
+
+hex
+
+hex

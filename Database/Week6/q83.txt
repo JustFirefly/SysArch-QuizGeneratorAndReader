@@ -1,0 +1,6 @@
+
+Suppose the cache access time is 10ns, main memory access time is 200ns and the cache hit rate is 90%. What is the EAT for the
+
+processor to access an item in the cache?
+
+Select one:

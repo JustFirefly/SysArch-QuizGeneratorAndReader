@@ -1,0 +1,8 @@
+
+   
+
+What is the correct hexadecimal representation for the binary number 01011101? All answers below are given in hexadecimal
+
+representation and we omit the (h) subscript.
+
+Select one:

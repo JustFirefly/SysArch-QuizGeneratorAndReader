@@ -1,0 +1,4 @@
+
+The reason for the implementation of the cache memory is?
+
+Select one:

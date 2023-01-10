@@ -1,0 +1,12 @@
+
+   
+
+Assume a computer having a main memory of 2  bytes and a direct mapped cache of 1024 blocks each of which containing 32
+
+32
+
+bytes. To which cache block the main memory address 000063FA  map?
+
+16
+
+Select one:

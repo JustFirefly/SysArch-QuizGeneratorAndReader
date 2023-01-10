@@ -1,0 +1,4 @@
+
+Which of the following best describes a Harvard Architecture cache?
+
+Select one:

@@ -1,0 +1,4 @@
+
+Which of the following pair of values usually make up an instruction in a simple instruction set?
+
+Select one:

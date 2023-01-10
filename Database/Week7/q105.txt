@@ -1,0 +1,51 @@
+
+Match the description for the correct MIPS notation for MIPS Pipeline.
+
+Instruction fetch from memory
+
+Instruction decode and register read
+
+Access memory operand
+
+Execute operation or calculate address
+
+Write result back to register
+
+
+
+
+
+
+
+
+
+
+
+Your answer is correct.
+
+The correct answer is: Instruction fetch from memory   IF,
+Instruction decode and register read
+  ID,
+Access memory operand
+  MEM,
+Execute operation or calculate address
+  EX,
+Write result back to register
+  WB
+
+IFIDMEMEXWBQu
+Consider the following MIPS code:
+
+1. add a, b, c
+
+2. add c, b ,d
+3. add f, c ,a
+
+4. add k, l, m
+5. add h, e, g
+
+6. add f, h, b
+
+Which of the following compiler optimisations could avoid data hazards in this code assuming a 4 stage pipeline (i.e., 1. fetch
+
+instruction; 2. Decode and load data; 3. Execute instruction; 4. Write to memory) with no forwarding?

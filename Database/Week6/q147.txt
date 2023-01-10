@@ -1,0 +1,8 @@
+
+ 
+
+Assume a computer having a cache whose block size is 1024 bytes. Which of the following programs would lead the most effective
+
+use of the sequential locality?
+
+Select one:

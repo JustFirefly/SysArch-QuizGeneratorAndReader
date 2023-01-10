@@ -1,0 +1,6 @@
+
+   
+
+What is the numeric range of an 4-bit signed magnitude binary number?
+
+Select one:

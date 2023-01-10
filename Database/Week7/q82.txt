@@ -1,0 +1,18 @@
+
+Consider the following MIPS code:
+
+1. add a, b, c
+
+2. add c, b ,d
+
+3. add f, c ,a
+
+4. add k, l, m
+
+5. add h, e, g
+
+6. add f, h, b
+
+Which of the following compiler optimisations could avoid data hazards in this code assuming a 4 stage pipeline (i.e., 1. fetch
+
+instruction; 2. Decode and load data; 3. Execute instruction; 4. Write to memory) with no forwarding?

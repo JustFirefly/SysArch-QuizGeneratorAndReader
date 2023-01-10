@@ -1,0 +1,4 @@
+
+What is the numeric range of an 8-bit binary number in 2's complement arithmetic?
+
+Select one:

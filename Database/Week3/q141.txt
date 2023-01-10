@@ -1,0 +1,6 @@
+
+   
+
+What is the effect of a bitwise-OR operation on the following 12-bit words: 1000 1010 1101, 0110 1110 0101?
+
+Select one:

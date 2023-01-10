@@ -1,0 +1,6 @@
+
+Suppose we have a byte-addressable computer using direct mapping with 16-bit main memory addresses and 16 blocks of cache. If
+
+each block contains 8 bytes, determine the size of the block field.
+
+Select one:

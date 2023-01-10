@@ -1,0 +1,7 @@
+
+
+
+Consider the next MARIE instructions: Load, Add, Store, Subt, Input and Output. Which of the following MARIE registers is not
+always used in the FDE cycle of the above instructions?
+
+Select one:

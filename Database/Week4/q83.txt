@@ -1,0 +1,5 @@
+
+Which MARIE instruction is being carried out by the microoperation that follows?
+PC   X
+
+Select one:

@@ -1,0 +1,12 @@
+
+How many superscalar execution units could be used for the MIPS pseudo-code below? Assume no register forwarding.
+
+1. add a, b, d
+2. add d, b ,c
+
+3. add g, e ,b
+4. add h, g, k
+
+5. add f, l, h
+
+Select one:
